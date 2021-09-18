@@ -173,10 +173,10 @@ else:
     st.write('No data yet')
 
 st.write('''
- Created by Mai Nguyen
- Facebook: https://www.facebook.com/maintq710
- Email: maintq710@gmail.com
- Source code: https://github.com/maintq/wedding_date
- Youtube: https://www.youtube.com/channel/UC98WbIwqUTRwwTHI3zfT1Fg
+ Created by Mai Nguyen \n
+ Facebook: https://www.facebook.com/maintq710 \n
+ Email: maintq710@gmail.com \n
+ Source code: https://github.com/maintq/wedding_date \n
+ Youtube: https://www.youtube.com/channel/UC98WbIwqUTRwwTHI3zfT1Fg \n
  ''')          
        
