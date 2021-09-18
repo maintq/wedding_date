@@ -172,7 +172,7 @@ if st.button('Run'):
 else:
     st.write('No data yet')
 
-st.footer('''
+st.write('''
  Created by Mai Nguyen
  Facebook: https://www.facebook.com/maintq710
  Email: maintq710@gmail.com
