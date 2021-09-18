@@ -174,8 +174,6 @@ else:
 
 st.write('''
  Created by Mai Nguyen \n
- Facebook: https://www.facebook.com/maintq710 \n
- Email: maintq710@gmail.com \n
  Source code: https://github.com/maintq/wedding_date \n
  Youtube: https://www.youtube.com/channel/UC98WbIwqUTRwwTHI3zfT1Fg \n
  ''')          
