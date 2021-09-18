@@ -171,8 +171,9 @@ if st.button('Run'):
     st.write(run_date(m_bd, f_bd, sd, ed))
 else:
     st.write('No data yet')
-    
- st.footer('''Created by Mai Nguyen
+
+st.footer('''
+ Created by Mai Nguyen
  Facebook: https://www.facebook.com/maintq710
  Email: maintq710@gmail.com
  Source code: https://github.com/maintq/wedding_date
