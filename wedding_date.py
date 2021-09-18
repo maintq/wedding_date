@@ -54,7 +54,7 @@ for n in range(int((ed - sd).days)):
 #%%
 def run_date(m_bd, f_bd, sd, ed):
     
-    driver = webdriver.Chrome(ChromeDriverManager().install(),chrome_options=options)
+    driver = webdriver.Chrome(ChromeDriverManager().install())
     
     driver.get('http://www.chonngaytotxau.com/vn/xem-ngay-cuoi-hoi.htm')
     print("Running the first website...")
