@@ -171,7 +171,7 @@ if st.button('Run'):
     st.write(run_date(m_bd, f_bd, sd, ed))
     st.download_button(
         label="Download Result",
-        data=run_date(m_bd, f_bd, sd, ed),
+        data=run_date(m_bd, f_bd, sd, ed).to_csv().encode('utf-8'),
         file_name='wedding_date.csv',
         mime='text/csv')
 else:
