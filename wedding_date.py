@@ -169,8 +169,15 @@ def run_date(m_bd, f_bd, sd, ed):
 #%%
 if st.button('Run'):
     st.write(run_date(m_bd, f_bd, sd, ed))
+    st.download_button(
+        label="Download Result",
+        data=run_date(m_bd, f_bd, sd, ed),
+        file_name='wedding_date.csv',
+        mime='text/csv')
 else:
     st.write('No data yet')
+    
+    
 
 st.write('''
  Created by Mai Nguyen \n
