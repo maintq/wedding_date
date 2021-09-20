@@ -168,6 +168,7 @@ def run_date(m_bd, f_bd, sd, ed):
 
 #%%
 if st.button('Run'):
+    st.write("Expected running time:", 0.5*len(input_date), "minutes") 
     st.write(run_date(m_bd, f_bd, sd, ed))
     st.download_button(
         label="Download Result",
